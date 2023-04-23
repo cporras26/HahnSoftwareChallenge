@@ -1,0 +1,17 @@
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\obj\Debug\net6.0\TechnicalChallenge.BLL.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\obj\Debug\net6.0\TechnicalChallenge.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\obj\Debug\net6.0\TechnicalChallenge.BLL.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\obj\Debug\net6.0\TechnicalChallenge.BLL.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\obj\Debug\net6.0\TechnicalChallenge.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\bin\Debug\net6.0\TechnicalChallenge.BLL.deps.json
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\bin\Debug\net6.0\TechnicalChallenge.BLL.dll
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\bin\Debug\net6.0\TechnicalChallenge.BLL.pdb
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\bin\Debug\net6.0\TechnicalChallenge.Common.dll
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\bin\Debug\net6.0\TechnicalChallenge.DAL.dll
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\bin\Debug\net6.0\TechnicalChallenge.Common.pdb
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\bin\Debug\net6.0\TechnicalChallenge.DAL.pdb
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\obj\Debug\net6.0\TechnicalChallenge.BLL.csproj.CopyComplete
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\obj\Debug\net6.0\TechnicalChallenge.BLL.dll
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\obj\Debug\net6.0\refint\TechnicalChallenge.BLL.dll
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\obj\Debug\net6.0\TechnicalChallenge.BLL.pdb
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.BLL\obj\Debug\net6.0\ref\TechnicalChallenge.BLL.dll

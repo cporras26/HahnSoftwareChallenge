@@ -1,0 +1,12 @@
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\bin\Debug\net6.0\TechnicalChallenge.Common.deps.json
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\bin\Debug\net6.0\TechnicalChallenge.Common.dll
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\bin\Debug\net6.0\TechnicalChallenge.Common.pdb
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\obj\Debug\net6.0\TechnicalChallenge.Common.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\obj\Debug\net6.0\TechnicalChallenge.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\obj\Debug\net6.0\TechnicalChallenge.Common.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\obj\Debug\net6.0\TechnicalChallenge.Common.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\obj\Debug\net6.0\TechnicalChallenge.Common.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\obj\Debug\net6.0\TechnicalChallenge.Common.dll
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\obj\Debug\net6.0\refint\TechnicalChallenge.Common.dll
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\obj\Debug\net6.0\TechnicalChallenge.Common.pdb
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.Common\obj\Debug\net6.0\ref\TechnicalChallenge.Common.dll

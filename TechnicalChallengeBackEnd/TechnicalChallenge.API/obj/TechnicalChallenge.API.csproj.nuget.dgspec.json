@@ -1,17 +1,170 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.API\\TechnicalChallenge.API.csproj": {}
+    "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.API\\TechnicalChallenge.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.API\\TechnicalChallenge.API.csproj": {
+    "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.API\\TechnicalChallenge.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.API\\TechnicalChallenge.API.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.API\\TechnicalChallenge.API.csproj",
         "projectName": "TechnicalChallenge.API",
-        "projectPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.API\\TechnicalChallenge.API.csproj",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.API\\TechnicalChallenge.API.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.API\\obj\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.BLL\\TechnicalChallenge.BLL.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.BLL\\TechnicalChallenge.BLL.csproj"
+              },
+              "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.Common\\TechnicalChallenge.Common.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.Common\\TechnicalChallenge.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.BLL\\TechnicalChallenge.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.BLL\\TechnicalChallenge.BLL.csproj",
+        "projectName": "TechnicalChallenge.BLL",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.BLL\\TechnicalChallenge.BLL.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.Common\\TechnicalChallenge.Common.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.Common\\TechnicalChallenge.Common.csproj"
+              },
+              "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.DAL\\TechnicalChallenge.DAL.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.DAL\\TechnicalChallenge.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.Common\\TechnicalChallenge.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.Common\\TechnicalChallenge.Common.csproj",
+        "projectName": "TechnicalChallenge.Common",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.Common\\TechnicalChallenge.Common.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +193,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "Dapper": {
               "target": "Package",
-              "version": "[1.11.1, )"
+              "version": "[2.0.123, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Npgsql": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[7.0.2, )"
             }
           },
           "imports": [
@@ -61,9 +214,65 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.DAL\\TechnicalChallenge.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.DAL\\TechnicalChallenge.DAL.csproj",
+        "projectName": "TechnicalChallenge.DAL",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.DAL\\TechnicalChallenge.DAL.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.Common\\TechnicalChallenge.Common.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.Common\\TechnicalChallenge.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

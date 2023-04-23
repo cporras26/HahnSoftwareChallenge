@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rsyz94eWOqLj2phfBI+m1QRbCEuIvd4VrIHWr6IwszSP2OqTPTPKYBs3rPC0ec5RJW6IJaoxTqCfoHGPssTGVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Carlos\\Desktop\\TechnicalChallenge\\HahnSoftwareChallenge\\TechnicalChallengeBackEnd\\TechnicalChallenge.BLL\\TechnicalChallenge.BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Carlos\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\Carlos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

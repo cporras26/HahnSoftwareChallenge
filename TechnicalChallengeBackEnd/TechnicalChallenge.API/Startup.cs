@@ -1,3 +1,5 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -6,11 +8,17 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using TechnicalChallenge.BLL;
+using TechnicalChallenge.Common.Services;
+using TechnicalChallenge.Common.Settings;
+using TechnicalChallenge.DAL.Repositories;
 
 namespace TechnicalChallenge.API
 {
@@ -26,7 +34,29 @@ namespace TechnicalChallenge.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddOptions();
 
+            services.Configure<TechnicalChallengeSettings>(Configuration);
+
+
+            
+            //Configure containerBuilder
+            var builder = new ContainerBuilder();
+            builder.Populate(services);
+
+            AddAutofacRegistrations(builder);
+
+            var container = builder.Build();
+
+            //Golvar Exceptions
+            TechnicalChallengeSettings settings;
+
+            using (var scope = container.BeginLifetimeScope())
+            { 
+                settings = scope.Resolve<TechnicalChallengeSettings>();
+            }
+
+            services.AddAutoMapper(typeof(Program));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -43,9 +73,8 @@ namespace TechnicalChallenge.API
             });
         }
 
-
-            // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-            public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -66,6 +95,44 @@ namespace TechnicalChallenge.API
             });
 
             app.UseCors("myOriginsPolicy");
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder) 
+        {
+            AddAutofacRegistrations(builder);
+        }
+
+        private static void AddAutofacRegistrations(ContainerBuilder builder)
+        {
+            #region BLL
+            builder.RegisterType<TechnicalChallengeBll>().As<ITechnicalChallengeBll>().InstancePerLifetimeScope();
+            #endregion
+
+            #region COMMON
+            builder.RegisterGeneric(typeof(DbService<>)).As(typeof(IDbService<>));
+
+            builder.Register(ctx =>
+            {
+                var options = ctx.Resolve<IOptions<TechnicalChallengeSettings>>();
+                return options.Value;
+            }).InstancePerLifetimeScope();
+
+            builder.Register(ctx =>
+            {
+                var options = ctx.Resolve<TechnicalChallengeSettings>();
+                return options.ConnectionStrings;
+            }).InstancePerLifetimeScope();
+
+            builder.Register(ctx =>
+            {
+                var options = ctx.Resolve<TechnicalChallengeSettings>();
+                return options.ConnectionStrings.UsersConnectionString;
+            }).SingleInstance();
+            #endregion
+
+            #region DAL
+            builder.RegisterType<UsersRepository>().As<IUsersRepository>().InstancePerLifetimeScope();
+            #endregion
         }
     }
 }
