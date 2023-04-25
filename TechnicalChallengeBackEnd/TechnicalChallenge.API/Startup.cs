@@ -56,12 +56,6 @@ namespace TechnicalChallenge.API
                 settings = scope.Resolve<TechnicalChallengeSettings>();
             }
 
-            services.AddAutoMapper(typeof(Program));
-            services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TechnicalChallenge.API", Version = "v1" });
-            });
             services.AddCors(c =>
             {
                 c.AddPolicy("myOriginsPolicy", options =>
@@ -71,11 +65,21 @@ namespace TechnicalChallenge.API
                     .AllowAnyMethod();
                 });
             });
+
+            services.AddAutoMapper(typeof(Program));
+            services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TechnicalChallenge.API", Version = "v1" });
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors("myOriginsPolicy");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -92,9 +96,7 @@ namespace TechnicalChallenge.API
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
-
-            app.UseCors("myOriginsPolicy");
+            });   
         }
 
         public void ConfigureContainer(ContainerBuilder builder) 
@@ -109,7 +111,7 @@ namespace TechnicalChallenge.API
             #endregion
 
             #region COMMON
-            builder.RegisterGeneric(typeof(DbService<>)).As(typeof(IDbService<>));
+            builder.RegisterGeneric(typeof(DbService<>)).As(typeof(IDbService<>)).InstancePerLifetimeScope();
 
             builder.Register(ctx =>
             {

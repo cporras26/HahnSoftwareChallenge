@@ -33,9 +33,9 @@ namespace TechnicalChallenge.BLL
             return await _usersRepository.CreateUser(requestDto);
         }
 
-        public async Task<bool> UpdateUserInformation(UserRequestDto requestDto)
+        public async Task<bool> UpdateUserInformation(int id, UserRequestDto requestDto)
         {
-            return await _usersRepository.UpdateUser(requestDto);
+            return await _usersRepository.UpdateUser(id,requestDto);
         }
 
         public async Task<bool> DeleteUserById(int id)

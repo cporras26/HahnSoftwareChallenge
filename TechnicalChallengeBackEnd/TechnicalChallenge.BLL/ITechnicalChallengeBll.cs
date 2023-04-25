@@ -13,7 +13,7 @@ namespace TechnicalChallenge.BLL
         Task<UserResponseDto> GetUserById(int id);
         Task<List<UserResponseDto>> GetAllUsers();
         Task<bool> AddUser(UserRequestDto user);
-        Task<bool> UpdateUserInformation(UserRequestDto user);
+        Task<bool> UpdateUserInformation(int id, UserRequestDto user);
         Task<bool> DeleteUserById(int id);
     }
 }

@@ -10,7 +10,7 @@ namespace TechnicalChallenge.DAL.Repositories
         Task<List<UserResponseDto>> GetUserList();
         Task<UserResponseDto> GetUser(int id);
         Task<bool> CreateUser(UserRequestDto user);
-        Task<bool> UpdateUser(UserRequestDto user);
+        Task<bool> UpdateUser(int id, UserRequestDto user);
         Task<bool> DeleteUser(int id);
     }
 }

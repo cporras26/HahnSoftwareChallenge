@@ -54,14 +54,12 @@ namespace TechnicalChallenge.API.Controllers
             return StatusCode(StatusCodes.Status201Created, string.Empty);
         }
 
-        [HttpPut]
-        public async Task<IActionResult> UpdateUser(UserRequest user)
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> UpdateUser(int id, UserRequest user)
         {
-            if(user.Id == null) return StatusCode(StatusCodes.Status400BadRequest, "The Id field is required");
-
             var requestDto = _mapper.Map<UserRequest, UserRequestDto>(user);
 
-            var result = await _technicalChallengeBll.UpdateUserInformation(requestDto);
+            var result = await _technicalChallengeBll.UpdateUserInformation(id, requestDto);
 
             return result ? Ok(string.Empty) : StatusCode(StatusCodes.Status204NoContent, string.Empty);
         }

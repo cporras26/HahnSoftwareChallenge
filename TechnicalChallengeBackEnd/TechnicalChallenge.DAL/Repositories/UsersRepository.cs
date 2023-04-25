@@ -44,11 +44,9 @@ namespace TechnicalChallenge.DAL.Repositories
             return result > 0;
         }
 
-        public async Task<bool> UpdateUser(UserRequestDto user)
+        public async Task<bool> UpdateUser(int id, UserRequestDto user)
         {
-            //var query = @"UPDATE public.users SET ""FirstName""=@FirstName, ""LastName""=@LastName, ""Age""=@Age, ""Occupation""=@Ocuppation WHERE ""Id""=@Id";
-
-            var query = @"UPDATE public.users SET ""FirstName""=@FirstName, ""LastName""=@LastName, ""Age""=@Age, ""Occupation""=@Occupation WHERE ""Id"" = @Id";
+            var query = @"UPDATE public.users SET ""FirstName""=@FirstName, ""LastName""=@LastName, ""Age""=@Age, ""Occupation""=@Occupation WHERE ""Id"" ="+id;
 
             var updateUser = await _dbService.EditData(query, user);
 

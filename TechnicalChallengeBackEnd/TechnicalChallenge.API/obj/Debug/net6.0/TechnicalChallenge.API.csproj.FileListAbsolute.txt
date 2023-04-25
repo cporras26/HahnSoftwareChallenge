@@ -105,3 +105,5 @@ C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChalle
 C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.API\obj\Debug\net6.0\TechnicalChallenge.API.pdb
 C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.API\obj\Debug\net6.0\TechnicalChallenge.API.genruntimeconfig.cache
 C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.API\obj\Debug\net6.0\ref\TechnicalChallenge.API.dll
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.API\bin\Debug\net6.0\appsettings.LocalDocker.json
+C:\Users\Carlos\Desktop\TechnicalChallenge\HahnSoftwareChallenge\TechnicalChallengeBackEnd\TechnicalChallenge.API\obj\Debug\net6.0\TechnicalChallenge.API.MvcApplicationPartsAssemblyInfo.cs
