@@ -1,0 +1,64 @@
+.container {
+  color: #fff;
+}
+
+.header {
+  background-color: #7950f2;
+  padding: 16px 48px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header-copyright {
+  font-size: 18px;
+  font-weight: 400;
+  color: #e5dbff;
+}
+
+.user-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.header span:last-child {
+  margin-left: auto;
+}
+
+.grid {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.btn {
+  width: 48px;
+  height: 48px;
+
+  background-color: #b197fc;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.btn-add {
+  margin-left: auto;
+}
+
+.icon-add {
+  width: 24px;
+  height: 24px;
+
+  color: #fff;
+}

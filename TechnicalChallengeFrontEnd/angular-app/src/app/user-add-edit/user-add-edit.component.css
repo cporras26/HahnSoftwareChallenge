@@ -1,0 +1,25 @@
+.dialog-title {
+  color: #495057;
+  font-weight: 400;
+  font-size: 36px;
+
+  margin-top: 0;
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.action {
+  padding: 0 25px 20px;
+}
+
+.action button {
+  flex: 1;
+  font-size: 16px;
+}

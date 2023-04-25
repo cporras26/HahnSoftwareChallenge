@@ -21,3 +21,12 @@ services:
       - ASPNETCORE_URLS=http://+:8800
     depends_on:
       - database
+  web:
+    container_name: web
+    restart: unless-stopped
+    build:
+     context: TechnicalChallengeFrontEnd\angular-app
+    ports:
+      - '8080:80'
+    depends_on:
+      - api
