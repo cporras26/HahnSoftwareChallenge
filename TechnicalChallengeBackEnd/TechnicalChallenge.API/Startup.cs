@@ -34,21 +34,17 @@ namespace TechnicalChallenge.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddOptions();
 
             services.Configure<TechnicalChallengeSettings>(Configuration);
-
-
             
             //Configure containerBuilder
             var builder = new ContainerBuilder();
             builder.Populate(services);
 
-            AddAutofacRegistrations(builder);
+            ConfigureContainer(builder);
 
             var container = builder.Build();
 
-            //Golvar Exceptions
             TechnicalChallengeSettings settings;
 
             using (var scope = container.BeginLifetimeScope())
