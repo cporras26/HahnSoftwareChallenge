@@ -69,6 +69,11 @@
   color: #fff;
 }
 
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
 table th {
   background-color: #9775fa;
   color: #fff;
@@ -79,6 +84,7 @@ table th {
 
 table td {
   color: #343a40;
+  width: 16%;
 }
 
 table tr:nth-child(odd) {
@@ -87,10 +93,6 @@ table tr:nth-child(odd) {
 
 table tr:nth-child(even) {
   background-color: #dee2e6;
-}
-
-table td:last-child {
-  padding-left: 0;
 }
 
 .edit-button {

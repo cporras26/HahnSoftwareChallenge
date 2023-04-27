@@ -10,6 +10,12 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 })
 export class UserAddEditComponent implements OnInit {
   userForm: FormGroup;
+  errors: { [key: string]: string } = {
+    firstName: 'First name is required.',
+    lastName: 'Last name is required.',
+    age: 'Age must be a positive value.',
+    occupation: 'Occupation is required.',
+  };
 
   constructor(
     private _fb: FormBuilder,
